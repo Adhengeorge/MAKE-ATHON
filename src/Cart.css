@@ -1,0 +1,20 @@
+/* src/Cart.css */
+.cart {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.pay-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.pay-button:hover {
+    background-color: #0056b3;
+}

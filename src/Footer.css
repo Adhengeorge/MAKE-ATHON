@@ -1,0 +1,52 @@
+/* src/Footer.css */
+.footer {
+    background-color: #343a40; /* Dark background color */
+    color: white; /* Text color */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px; /* Limit max width */
+    margin: 0 auto; /* Center the footer content */
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Wrap items to next line */
+    justify-content: space-between; /* Space between sections */
+}
+
+.footer-section {
+    flex: 1; /* Allow each section to grow equally */
+    min-width: 150px; /* Minimum width for each section */
+    margin: 10px; /* Margin around each section */
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media h4 {
+    margin-bottom: 5px; /* Space between heading and links */
+}
+
+.social-media a {
+    margin: 0 10px; /* Space between links */
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Link color */
+}
+
+.social-media a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.help-button {
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Padding around text */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.help-button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}

@@ -1,0 +1,28 @@
+/* src/index.css or a dedicated CSS file */
+.signup, .login {
+  margin-top: 80px; /* Adjust for navbar height */
+  padding: 1rem;
+}
+
+.signup form, .login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup input, .login input {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+.signup button, .login button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.signup button:hover, .login button:hover {
+  background-color: #0056b3;
+}

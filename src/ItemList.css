@@ -1,0 +1,32 @@
+/* src/ItemList.css */
+.item-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+    gap: 16px; /* Space between items */
+    padding: 20px; /* Optional padding around the grid */
+}
+
+.item {
+    border: 1px solid #ccc; /* Optional border around each item */
+    padding: 10px; /* Optional padding inside each item */
+    text-align: center; /* Center the text */
+}
+
+.item-image {
+    max-height: 150px; /* Set a maximum height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Crop the image to fit the container */
+    margin-bottom: 10px; /* Optional rounded corners */
+}
+/* src/ItemList.css */
+@media (max-width: 800px) {
+    .item-list {
+        grid-template-columns: repeat(2, 1fr); /* 2 items per row on smaller screens */
+    }
+}
+
+@media (max-width: 500px) {
+    .item-list {
+        grid-template-columns: 1fr; /* 1 item per row on very small screens */
+    }
+}
